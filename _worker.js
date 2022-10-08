@@ -6,7 +6,7 @@ export default {
         let new_request=new Request(url,request);
         return fetch(new_request);
       }
-      // Otherwise, serve the static assets.
+      // Otherwise, serve is the static assets.
       return env.ASSETS.fetch(request);
     }
   };
